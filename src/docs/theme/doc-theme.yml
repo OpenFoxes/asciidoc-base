@@ -1,0 +1,19 @@
+extends: default
+
+page:
+  size: A4
+  layout: portrait
+  margin: [2.5cm, 2cm, 2.5cm, 2cm]
+  margin-inner: 2.5cm # BCOR, deactivate for equal page margins
+
+base:
+  font-family: Ubuntu
+
+font:
+  catalog:
+    merge: true
+    Ubuntu:
+      normal: ubuntu/Ubuntu-Regular.ttf
+      bold: ubuntu/Ubuntu-Bold.ttf
+      italic: ubuntu/Ubuntu-Italic.ttf
+      bold_italic: ubuntu/Ubuntu-BoldItalic.ttf
